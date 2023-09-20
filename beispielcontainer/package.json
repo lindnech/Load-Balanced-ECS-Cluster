@@ -1,0 +1,67 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
+
+// Kommentare:
+
+
+  // Der Name des Projekts.
+    // "name": "frontend",
+
+  // Die Version des Projekts.
+    // "version": "1.0.0",
+
+  // Eine kurze Beschreibung des Projekts.
+  //  "description": "",
+
+  // Der Einstiegspunkt für das Projekt. Wenn Sie `node .` in der Kommandozeile ausführen, wird diese Datei ausgeführt.
+    // "main": "server.js",
+
+  // Ein Objekt, das die Befehle enthält, die Sie in der Kommandozeile ausführen können. In diesem Fall gibt es zwei Befehle: 'test' und 'start'.
+    // "scripts": {
+  // Der 'test'-Befehl gibt derzeit nur eine Fehlermeldung aus und beendet den Prozess mit einem Fehlercode.
+    // "test": "echo \"Error: no test specified\" && exit 1",
+
+  // Der 'start'-Befehl führt die Datei 'server.js' mit Node.js aus.
+    // "start": "node server.js"
+  
+
+  // Ein Array von Schlüsselwörtern, die das Projekt beschreiben.
+      // "keywords": [],
+
+  // Der Autor des Projekts.
+      // "author": "",
+
+  // Die Lizenz für das Projekt.
+      // "license": "ISC",
+
+  // Ein Objekt, das die Abhängigkeiten des Projekts auflistet. Jede Abhängigkeit ist ein Schlüssel-Wert-Paar, wobei der Schlüssel der Name des Pakets und der Wert die gewünschte Version ist.
+      // "dependencies": {
+    // Das CORS-Paket ermöglicht Cross-Origin-Anfragen in Express-Anwendungen.
+        // "cors": "^2.8.5",
+
+    // Das Express-Paket ist ein Framework für Node.js-Webanwendungen.
+        // "express": "^4.18.2"
+
+
+// Die package.json-Datei ist eine wichtige Datei in Node.js-Projekten. Sie enthält Metadaten über das Projekt und listet seine 
+
+// Abhängigkeiten auf. Node.js verwendet diese Datei, um zu wissen, welche Module installiert werden müssen und wie verschiedene 
+
+// Skripte ausgeführt werden sollen. In diesem speziellen Fall definiert die package.json-Datei ein Projekt namens ‘frontend’, das 
+
+// auf Express und CORS angewiesen ist und einen Startbefehl hat, der server.js ausführt.

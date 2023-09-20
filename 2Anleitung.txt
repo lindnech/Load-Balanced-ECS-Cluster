@@ -1,0 +1,28 @@
+
+# in ECR ein Repository erstellen über Management Konsole
+# bei AWS über die CLi anmelden
+# Docker in ECR registrieren
+# Image für Frontend erstellen
+# Image für ECR taggen
+# Image für ECR pushen
+# Cluster in ECS erstellen
+
+# Aufgabendefinition erstellen:
+
+1.  Konfiguration bestimmen (CPU, Speicher)
+2.  Image auswählen
+3.  Protokollerfassung deaktivieren
+
+# Loadbalancer erstellen:
+
+1.  Application Loadbalancer erstellen/auswählen
+2.  IP-Adresse statt Instance auswählen
+3.  Zielgruppe erstellen/auswählen
+
+# Service erstellen:
+
+1.  Lastenausgleich wählen
+2.  vorhandenen ALB wählen
+3.  vorhandene Zielgruppe wählen
+
+# DNS-Adresse des Loadbalancers in Browser eingeben

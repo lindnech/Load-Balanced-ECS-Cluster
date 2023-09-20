@@ -1,0 +1,14 @@
+# Load Balanced ECS Cluster
+
+Erstelle einen ECS Cluster, welcher als Task/Aufgabe einen Docker Container aus dem ECR beinhaltet.
+
+Dieser soll eine beliebige HTML Seite darstellen. Falls ihr dafür noch keinen Container habt, kann eine 
+
+Front-End Beispiel aus dem Anhang heruntergeladen werden. Dieser ECS Cluster soll hinter einen 
+
+ALB (Application Load Balancer, zu finden unter EC2, begrenzt auf 2 Instanzen) geschaltet werden. 
+
+Die Aufgabe ist erfolgreich wenn die ec2 instanz ueber port 80 im browser die html wieder gibt.
+
+### Ausgangspunkt: Es existiert absolut nicht. Weder ECR Inhalte noch ein ECS Cluster. Ein Beispiel des Aufbaus auf Englisch:
+    https://www.youtube.com/watch?v=o7s-eigrMAI
